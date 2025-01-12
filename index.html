@@ -13,31 +13,32 @@
 </head>
 
 <body>
+  <main role="main">
+    <div id="rating-container" class="rating-container">
+      <img class="star-icon" src="images/icon-star.svg" alt="star-icon">
+      <h1 class="rating-title">How did we do?</h1>
+      <p class="rating-paragraph">Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+      <ul>
+        <li class="rating">1</li>
+        <li class="rating">2</li>
+        <li class="rating">3</li>
+        <li class="rating">4</li>
+        <li class="rating">5</li>
+      </ul>
+      <button id="submit" class="submit-button">SUBMIT</button>
+    </div>
 
-  <div id="rating-container" class="rating-container">
-    <img class="star-icon" src="images/icon-star.svg" alt="star-icon">
-    <h1 class="rating-title">How did we do?</h1>
-    <p class="rating-paragraph">Please let us know how we did with your support request. All feedback is appreciated
-      to help us improve our offering!</p>
-    <ul>
-      <li class="rating">1</li>
-      <li class="rating">2</li>
-      <li class="rating">3</li>
-      <li class="rating">4</li>
-      <li class="rating">5</li>
-    </ul>
-    <button id="submit" class="submit-button">SUBMIT</button>
-  </div>
+    <div id="thanks-container" class="thanks-container">
+      <img class="thanks-illustration" src="images/illustration-thank-you.svg" alt="thanks-illustration">
+      <p id="rating" class="selected-rating">You selected 0 out of 5</p>
+      <p class="thanks-rating">Thank you!</p>
+      <p class="thanks-paragraph">We appreciate you taking the time to give a rating. If you ever need more support,
+        don't hesitate to get in touch!</p>
+    </div>
+  </main>
 
-  <div id="thanks-container" class="thanks-container">
-    <img class="thanks-illustration" src="images/illustration-thank-you.svg" alt="thanks-illustration">
-    <p id="rating" class="selected-rating">You selected 0 out of 5</p>
-    <p class="thanks-rating">Thank you!</p>
-    <p class="thanks-paragraph">We appreciate you taking the time to give a rating. If you ever need more support,
-      don't hesitate to get in touch!</p>
-  </div>
-
-  <footer class="attribution">
+  <footer class="attribution" role="contentinfo">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="https://social-links-buildandbreak.netlify.app/">Tiago Pereira</a>.
   </footer>
