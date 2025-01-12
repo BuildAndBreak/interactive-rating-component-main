@@ -28,6 +28,7 @@ body {
   color: var(--white);
   font-family: var(--ff-primary);
   min-height: 100vh;
+  background-color: var(--very-dark-blue);
 }
 
 .rating-container,
@@ -143,7 +144,7 @@ li:active {
 .attribution {
   font-size: 11px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: var(--light-grey);
   margin-top: 1rem;
 }
 
