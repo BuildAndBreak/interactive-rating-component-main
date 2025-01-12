@@ -157,6 +157,6 @@ li:active {
 }
 
 .pressed {
-  background-color: var(--orange);
+  background-color: var(--white);
   color: var(--very-dark-blue);
 }
