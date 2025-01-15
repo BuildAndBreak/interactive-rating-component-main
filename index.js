@@ -1,6 +1,3 @@
-//Hides the div with the id #thanks-container
-document.querySelector("#thanks-container").classList.add("hide");
-
 let clickedNum = null;
 const ratingNumbers = document.querySelectorAll("li");
 
@@ -21,8 +18,8 @@ ratingNumbers.forEach((liElement) => {
 document.querySelector("#submit").addEventListener("click", function () {
   if (clickedNum !== null) {
     // Hide the rating container and show the 'thank-you' container
-    document.querySelector("#rating-container").classList.add("hide");
-    document.querySelector("#thanks-container").classList.remove("hide");
+    document.querySelector("#rating-container").style.display = "none";
+    document.querySelector("#thanks-container").style.display = "flex";
 
     // Display the selected rating in the 'thank-you' message
     document.querySelector(

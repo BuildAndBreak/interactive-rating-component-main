@@ -13,18 +13,18 @@
 </head>
 
 <body>
-  <main role="main">
+  <main>
     <div id="rating-container" class="rating-container">
-      <img class="star-icon" src="images/icon-star.svg" alt="star-icon">
+      <img class="star-icon" src="images/icon-star.svg" alt="">
       <h1 class="rating-title">How did we do?</h1>
       <p class="rating-paragraph">Please let us know how we did with your support request. All feedback is appreciated
         to help us improve our offering!</p>
-      <ul>
-        <li class="rating">1</li>
-        <li class="rating">2</li>
-        <li class="rating">3</li>
-        <li class="rating">4</li>
-        <li class="rating">5</li>
+      <ul role="list" aria-label="Rating options">
+        <li class="rating" role="button">1</li>
+        <li class="rating" role="button">2</li>
+        <li class="rating" role="button">3</li>
+        <li class="rating" role="button">4</li>
+        <li class="rating" role="button">5</li>
       </ul>
       <button id="submit" class="submit-button">SUBMIT</button>
     </div>
